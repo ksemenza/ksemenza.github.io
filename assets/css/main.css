@@ -3145,9 +3145,9 @@ input, select, textarea {
 				}
 
 		#banner.major {
-			height: 75vh;
-			min-height: 30em;
-			max-height: 50em;
+			height: 55vh;
+			min-height: 20em;
+			max-height: 40em;
 		}
 
 			#banner.major.alt {

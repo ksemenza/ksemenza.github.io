@@ -3619,6 +3619,9 @@ input, select, textarea {
 
 	/*Font size 14px ~ 14px/16px = 0.875em*/
 
+	.copyright {
+		display: flex;
+	}
 
 		.quoteHome {
 			font-size: 1.8rem;

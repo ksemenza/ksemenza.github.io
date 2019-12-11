@@ -92,6 +92,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		font-size: 62.5%;
 	}
 
 	*, *:before, *:after {
@@ -3614,18 +3615,34 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+/*MY CODE STARTS HERE*/
 
 	/*Font size 14px ~ 14px/16px = 0.875em*/
+
+
 		.quoteHome {
-			float: right;
-			display: flex;
-			flex-direction: column;
-			line-height: 3%;
-			margin-top: -3%;
-			font-size:0.875em;
+			font-size: 1.8rem;
 			font-variant: small-caps;
 			font-style: italic;
 			font-weight: bold;
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		@media screen and (max-width: 736px) {
+		
+			}
+		
+		
+		
+
+
+		@media screen and (max-width: 480px) {
+			footer .inner{
+			
+			}
+		
+	
 		}
 
 	

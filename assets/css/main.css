@@ -92,7 +92,6 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
-		font-size: 62.5%;
 	}
 
 	*, *:before, *:after {
@@ -3146,9 +3145,9 @@ input, select, textarea {
 				}
 
 		#banner.major {
-			height: 55vh;
-			min-height: 20em;
-			max-height: 40em;
+			height: 75vh;
+			min-height: 30em;
+			max-height: 50em;
 		}
 
 			#banner.major.alt {
@@ -3615,37 +3614,18 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
-/*MY CODE STARTS HERE*/
 
 	/*Font size 14px ~ 14px/16px = 0.875em*/
-
-	.copyright {
-		display: flex;
-	}
-
 		.quoteHome {
-			font-size: 1.8rem;
+			float: right;
+			display: flex;
+			flex-direction: column;
+			line-height: 3%;
+			margin-top: -3%;
+			font-size:0.875em;
 			font-variant: small-caps;
 			font-style: italic;
 			font-weight: bold;
-			display: flex;
-			justify-content: flex-end;
-		}
-
-		@media screen and (max-width: 736px) {
-		
-			}
-		
-		
-		
-
-
-		@media screen and (max-width: 480px) {
-			footer .inner{
-			
-			}
-		
-	
 		}
 
 	

@@ -5,7 +5,6 @@
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-	
 */
 
 html, body, div, span, applet, object,
@@ -3483,9 +3482,9 @@ input, select, textarea {
 				}
 
 		#banner.major {
-			height: 25vh;
-			min-height: 10em;
-			max-height: 30em;
+			height: 75vh;
+			min-height: 30em;
+			max-height: 50em;
 		}
 
 			#banner.major.alt {
@@ -3956,3 +3955,6 @@ input, select, textarea {
 
 /*My Own Code*/
 
+#two{
+	background-image: url();
+}

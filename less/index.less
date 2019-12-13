@@ -14,12 +14,12 @@
 }
 
 .stroke3D {
-	   -webkit-text-stroke: .1px @lightblue;
+	   -webkit-text-stroke: .1px @ltBlue;
    text-shadow:
-       2px 2px 0 black,
-	  1px -1px 0 black,
+       2px 2px 0 @ltBlue,
+	  1px -1px 0  @darkblue,
 	  -1px 1px 0 @darkblue,
-	   1px 1px 0 black;
+	   1px 1px 0 @darkblue;
 	   font-weight: bolder;
 }
 
@@ -225,7 +225,7 @@ html {
 		}//end of 786px
 
 		  @media(max-width:480px) {
-			  width: 55%;
+			  width: 100%;
 		  }//end of a 480px
 	  }//end of anchor topNav
 

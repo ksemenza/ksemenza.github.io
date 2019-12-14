@@ -263,7 +263,7 @@ header a:active {
 }
 /* The hero image */
 .heroImg {
-  background-image: url('/images/heroImg2.jpg');
+  background-image: url('./images/heroImg2.jpg');
   height: 350px;
   width: 100%;
   background-position: center;

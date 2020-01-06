@@ -3,8 +3,7 @@
 .container{
     display: flex;
     flex-direction: column;    
-  
-}
+}//End container
 
 .landingSec {
     display: flex;
@@ -18,8 +17,6 @@
     padding: 2%;
     color: white;
 
-
-
     @media @phone {
         background: linear-gradient(to bottom, transparent -35%, white), url(../src/img/homeHero-min.jpg);
         overflow: hidden;
@@ -32,15 +29,13 @@
         color: white;
         justify-content: center;
         text-align: center;
-    }//end of @phone landing sec
-
+    }//End landingSec phone
     .heroTitleTag {
         @media @phone {
        margin-top: -3%;
 width: 500px;
-        }
-      
-    }
+        }//end hero title tag-line container phone
+    }//end hero title tag-line container
 
     .landingTitle {
         color: @burgundy-main1;
@@ -52,37 +47,30 @@ width: 500px;
         @media @phone {
             font-size: 3.5rem;
             margin-top: 3%;
+        }//end phone landing title
+    }//end landing title
 
-  
-        }//end of phone landing title
-
-  
-
-    }//end of landing title
     .landingTagLine {
         margin-top: -3%;
         color: @ebony-black;
         width: 55%;
         font-family: @header1-font;
-
-
         @media @phone {
             font-size: 1.8rem;
             width: 100%;
-}//end of tag line phone
-     }//end phone hero tag line
-    }//end landing tag line
+}//end phone tag-line
+     }//end tag-line
+    }//end landingSec
     
 .landingTxtDetails {
     width: 55%;
     font-size: 1.8rem;
     color: @blackFont;
     font-family: @header2-font;
-
     @media @phone {
 display: none;    
-}//end of phone landing detail text
-}//end of landing txt details
+}//end phone landing detail text
+}//end landing detail text
 .landingButtons {
     display: flex;
     margin-top: 5%;
@@ -91,7 +79,6 @@ display: none;
         .bttnSpecs();
     background-color: @burgundy-main1;
     color: @cream-white;
-
     &:hover{
         .fancyBttnHover();
     }//end download bttn hover
@@ -100,8 +87,9 @@ display: none;
     }//end of download active
 @media @phone {
     display: none;
-}//end of phone download btn
-    }//end of download button
+}//end phone download bttn
+    }//end download bttn
+
     #signUpBtn {
  .fancyBttn();
  .bttnSpecs();
@@ -110,7 +98,7 @@ display: none;
     color: @burgundy-main1;
     &:hover{
         .signUpBttnHover();
-    }//end of signup hover
+    }//end sign up hover
     &:active{
         .signUpBttnActive();
     }//end signup active
@@ -119,97 +107,94 @@ display: none;
     margin-left: 0px;
     margin-bottom: 6%;
     border-radius: 0.15em;
- }// end of phone sign up btn
+ }// end phone sign up btn
     }//end of sign up buttons
 @media @phone {
     margin-top: 6%;
     width: 100%;
   justify-content: center;
+}//end phone hero bttns 
+}//end hero bttns
+/** END OF HEADER **/
 
-}//end of hero bttns phone
-}//end of hero buttons
-
-
+/** START OF TOP SEC THREE IMG THREE TXT **/
 .topSection {
     .centerPage();
-.topSecTag{
+    margin-bottom: 5px;
+.topSecHeader{
     @media @phone {
         font-size: 1.8rem;
-    }//end of top sec tag phone
-}//end of top sec tag 
+    }//end phone top sec header
+}//end phone top sec
 
+//IMG AND TXT
 .topImgsCaptions {
     display: flex;
-    flex-direction: row;
-
-.imgCap1 {
-    transition:all 0.25s ease;
+    justify-content: space-evenly;
+//IMG 1
+.imgTxt1{
 .topImg1{
-
     .topImgSpecs1();
-
+}//end top img1
+//START OF TOP IMG TXT
+.topTxt1{
+    width: @topImgWidth1;
+    .topTxtSpecs();
     &:hover{
-     .wiggleImg();
-    }//end of top img1 hover
-}//end of img 1
-}//end of img caption 1
+        .topTxtAnim();
+    }//end top text hover
+    @media @phone {
+        font-size: 1.6rem;
+    }//end phone top txt 1 / 2
+}//end top txt 1 / 2
+}//end of img txt 1
 
-.imgCap2{
-    margin-left: @topImgLeftMargin;
+//IMG 2
+.imgTxt2{
     .topImg2{
+        margin-top: -1%
         .topImgSpecs1();
-        &:hover{
-            .wiggleImg();
-
-        }//end of top img2 hover
     }//end of top img 2
+    //START OF TOP IMG TXT
+.topTxt2{
+    width: @topImgWidth1;
+    .topTxtSpecs();
+    &:hover{
+        .topTxtAnim();
+    }//end top text hover
+    @media @phone {
+        font-size: 1.6rem;
+    }//end phone top txt 1 / 2
+}//end top txt 1 / 2
 }//end of img caption 2
 
-.imgCap3{
-    margin-left: @topImgLeftMargin;
+
+.imgTxt3{
     .topImg3{
         width: @topImgWidth3;
         border-radius: @imgRadius;
-        &:hover{
-            .wiggleImg();
+    }//end of top img 3 
+.topTxt3{
+    width:@topImgWidth3;
+    .topTxtSpecs();
+    &:hover{ 
+        .topTxtAnim();
+    }//end of top img3 hover
+    @media @phone {
+        font-size: 1.6rem;
+    }//end phone top txt3
+}//end top txt3
+}
+}//end top sec
 
-        }//end of top img3 hover
 
-    }//end of top img 3
 }//end of img caption 3
 
-.topCaps{
-.bttmCapImg();
-    width: @topImgWidth1;
-    .topCapSpecs();
-    @media @phone {
-        font-size: 1.6rem;
 
-    }//end of top caption phone
-}//end of caption 1 and 2
-.topCaps3{
-.bttmCapImg();
-    width:@topImgWidth3;
-    .topCapSpecs();
-    @media @phone {
-        font-size: 1.6rem;
-    }//end of top caption 3 phone
-}//end of caption 3
-}//end of topImgCaptions
-}
-//IMG HOVER
 
-        
-
-.topImg1:hover{
-
-    -webkit-animation: swing 1s ease;
-    animation: swing 1s ease;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-}
-
+//START OF MID SEC
 .midSecImgTxt{
+   
    background: linear-gradient(to right, transparent 5%, white), url(../src/img/midImg-min.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;

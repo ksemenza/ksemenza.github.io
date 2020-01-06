@@ -1,0 +1,52 @@
+.wiggleImg{
+    -webkit-animation: swing 1s ease;
+    animation: wiggle 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+
+@-webkit-keyframes wiggle {
+    20%  { 
+      -webkit-transform: translateX(4px);
+      transform: translateX(4px);  
+    }
+    40%  {
+      -webkit-transform: translateX(-4px);
+      transform: translateX(-4px); 
+    }
+    60%  {
+      -webkit-transform: translateX(2px);
+      transform: translateX(2px);  
+    }
+    80%  {
+      -webkit-transform: translateX(-1px);
+      transform: translateX(-1px); 
+    }
+    100% { 
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @keyframes wiggle {
+    20%  { 
+      -webkit-transform: translateX(4px);
+      transform: translateX(4px);  
+    }
+    40%  {
+      -webkit-transform: translateX(-4px);
+      transform: translateX(-4px); 
+    }
+    60%  {
+      -webkit-transform: translateX(2px);
+      transform: translateX(2px);  
+    }
+    80%  {
+      -webkit-transform: translateX(-1px);
+      transform: translateX(-1px); 
+    }
+    100% { 
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }

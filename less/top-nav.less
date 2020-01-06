@@ -1,0 +1,111 @@
+header {
+    .centerPage();
+
+}
+.headerTxt {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 95px;
+    padding-bottom: 3%;
+    background-color: @burgundy-main1;
+    margin-top: -2%;
+
+    @media @phone {
+        flex-direction: column;
+        align-items: center;
+        height: 115px;
+}//end of headerTxt phone
+.logoCoName {
+    display: flex;
+    margin-top: 1.1%;
+    @media @phone {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }//end of logo and company name div phone
+    }//end of logo and company name div
+.logoTop{
+    height: 8.0rem;
+    width: 8.0rem;
+
+    &:hover{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+    }
+    &:active{
+        -webkit-transform: rotateZ(30deg);
+        -ms-transform: rotateZ(30deg);
+        transform: rotateZ(30deg);
+    }
+    @media @phone {
+    }//end of logo phone
+}//end of logoTop
+.companyName{
+    display: flex;
+    font-size: 2.5rem;
+    margin-top: 5%;
+    color:@tangerine-main1;
+    font-family: @header1-font;
+    text-decoration: none;
+
+    &:hover {
+        color: @gold-accent1;
+    }//end of company name hover
+
+    @media @tablet {
+        font-size: 2.1rem;
+    }//end of tablet company name
+
+    @media @phone {
+  }//end of company name phone
+}//end of company name 
+}//end of headerTxt
+.topNav{
+
+overflow: visible;
+white-space: nowrap;
+margin-top: 2%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 1.8rem;
+height: 100%;
+font-family: @messy-font;
+
+a {
+  
+    @media @tablet{
+        font-size: 1.6rem;
+    }
+    @media @phone {
+        margin-top: -15px;
+        padding-left: 8%;
+        padding-right: 8%;
+}
+}//end of topNav @tablet
+}//end of top nav
+
+#logIn {
+
+@media @phone {
+    padding-left: 35%;
+  
+}// end of phone log in
+}//end of top login btn
+
+#myPassport {
+
+    @media @phone {
+       display: none;
+    }//end of mypass phone
+}//end of my pass
+
+
+.myPassFX {
+    padding-right: 35px;
+}
+.logInFX{
+    padding-right: 35px;
+}

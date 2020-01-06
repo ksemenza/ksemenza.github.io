@@ -1,0 +1,101 @@
+
+.bttnSpecs {
+    font-size: 2.8rem;
+    width: 185px;
+    height: 55px;
+    font-family:@messy-font;
+}
+.bttnSpecsPhone {
+    font-size: 1.4rem;
+    width: 150px;
+    height: 35px;
+    font-family:@messy-font;
+}
+//Custom Button Highligted hover
+.fancyBttn {
+    padding: .4rem 2.16rem;
+    border:0.16rem solid @burgundy-main1;
+    margin: 0 .32rem .32rem 0;
+    border-radius:0.9rem;
+    text-decoration:none;
+    font-family: @messy-font;
+    font-size: 2.1rem;
+    font-weight:300;
+    color:@cream-white;
+    text-shadow: 0 0.064rem 0.064em rgba(0,0,0,0.35);
+    background-color:@burgundy-main1;
+    text-align:center;
+    transition: all 0.15s;
+}
+.fancyBttnHover {
+    text-shadow: 0 0 3.2rem rgba(0,0,0,0.35);
+    color: @off-white;
+    border-color:@burgundy-dark;
+    border-color: @burgundy-dark;
+    // background-color: rgb(107, 11, 11);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+.fancyBttnActive {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    background-color: @burgundy-main1;
+    color: @cream-white;
+}
+
+.signUpBttn {
+    padding: .4rem 2.16rem;
+    border:0.16rem solid @burgundy-main1;
+    margin: 0 .32rem .32rem 0;
+    border-radius:0.9rem;
+    text-decoration:none;
+    font-family: @messy-font;
+    font-size: 2.1rem;
+    font-weight:300;
+    color:@burgundy-main1;
+    text-shadow: 0 0.064rem 0.064em rgba(0,0,0,0.35);
+    background-color:@cream-white;
+    text-align:center;
+    transition: all 0.15s;
+}
+
+//sign up hover
+.signUpBttnHover {
+    text-shadow: 0 0 3.2rem rgba(0,0,0,0.35);
+    color: @burgundy-dark;
+    border-color:@burgundy-dark;
+    // background-color: rgb(107, 11, 11);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+//sign up active
+.signUpBttnActive {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    background-color:@cream-white;
+    color: @burgundy-main1;
+}
+
+.bttnTemplate(bg txt border){
+    background-color: bg;
+    color: txt;
+    border: 0.16rem solid border;
+    padding: .4rem 2.16rem;
+    margin: 0 .32rem .32rem 0;
+    border-radius:0.9rem;
+    text-decoration:none;
+    font-family: @messy-font;
+    font-size: 2.1rem;
+    font-weight:300;
+    color:@tangerine-main1;
+    text-shadow: 0 0.064rem 0.064em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.15s;
+}

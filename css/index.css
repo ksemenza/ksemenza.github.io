@@ -533,7 +533,10 @@ header {
 }
 .topSection .topImgsCaptions {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.topSection .topImgsCaptions .imgTxt1 {
+  margin-right: 2%;
 }
 .topSection .topImgsCaptions .imgTxt1 .topImg1 {
   width: 70%;

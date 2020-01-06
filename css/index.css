@@ -57,11 +57,10 @@ font-family: 'Solway', serif;
   border: 1px solid red;
 }
 .topImgSpecs1 {
-  border-radius: 3%;
   width: 70%;
 }
 .topImgSpec3 {
-  border-radius: 3%;
+  width: 100%;
 }
 .topTxtSpecs {
   background-color: #F79905;
@@ -69,7 +68,7 @@ font-family: 'Solway', serif;
   padding: 15px 0;
   text-align: center;
   margin-top: -2px;
-  border-radius: 7px;
+  border-radius: 4px;
   font-family: 'Permanent Marker', cursive;
   font-size: 2.2rem;
 }
@@ -78,7 +77,6 @@ font-family: 'Solway', serif;
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  border: 1px groove #7F0000;
   background-color: #970C10;
   color: #F79905;
 }
@@ -518,10 +516,9 @@ header {
 }
 .topSection .topImgsCaptions {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .topSection .topImgsCaptions .imgTxt1 .topImg1 {
-  border-radius: 3%;
   width: 70%;
 }
 .topSection .topImgsCaptions .imgTxt1 .topTxt1 {
@@ -531,7 +528,7 @@ header {
   padding: 15px 0;
   text-align: center;
   margin-top: -2px;
-  border-radius: 7px;
+  border-radius: 4px;
   font-family: 'Permanent Marker', cursive;
   font-size: 2.2rem;
 }
@@ -540,7 +537,6 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  border: 1px groove #7F0000;
   background-color: #970C10;
   color: #F79905;
 }
@@ -550,7 +546,7 @@ header {
   }
 }
 .topSection .topImgsCaptions .imgTxt2 .topImg2 {
-  margin-top: -1% border-radius: 3%; width: 70%;;
+  width: 70%;
 }
 .topSection .topImgsCaptions .imgTxt2 .topTxt2 {
   width: 70%;
@@ -559,7 +555,7 @@ header {
   padding: 15px 0;
   text-align: center;
   margin-top: -2px;
-  border-radius: 7px;
+  border-radius: 4px;
   font-family: 'Permanent Marker', cursive;
   font-size: 2.2rem;
 }
@@ -568,7 +564,6 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  border: 1px groove #7F0000;
   background-color: #970C10;
   color: #F79905;
 }
@@ -579,16 +574,14 @@ header {
 }
 .topSection .topImgsCaptions .imgTxt3 .topImg3 {
   width: 100%;
-  border-radius: 3%;
 }
 .topSection .topImgsCaptions .imgTxt3 .topTxt3 {
-  width: 100%;
   background-color: #F79905;
   color: #212A31;
   padding: 15px 0;
   text-align: center;
   margin-top: -2px;
-  border-radius: 7px;
+  border-radius: 4px;
   font-family: 'Permanent Marker', cursive;
   font-size: 2.2rem;
 }
@@ -597,7 +590,6 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  border: 1px groove #7F0000;
   background-color: #970C10;
   color: #F79905;
 }
@@ -607,6 +599,8 @@ header {
   }
 }
 .midSecImgTxt {
+  margin-left: 2%;
+  margin-right: 2%;
   background: linear-gradient(to right, transparent 5%, white), url(../src/img/midImg-min.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -645,8 +639,22 @@ p {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-left: 2%;
   margin-right: 2%;
+}
+.bttmSec .bttmImgRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-right: 4.5%;
+  margin-bottom: 3%;
+}
+.bttmSec .bttmImgRow .bttmImg {
+  height: 15%;
+  width: 25%;
 }
 @media (max-width: 500px) {
   .bttmSec {
@@ -662,10 +670,16 @@ p {
     font-size: 1.8rem;
   }
 }
-.bttmSec button {
+.bttmSec .bttnCtr {
+  display: flex;
+  justify-content: center;
+  margin-right: 6%;
+  width: 100%;
+}
+.bttmSec .bttnCtr button {
   border: none;
 }
-.bttmSec .joinBttn {
+.bttmSec .bttnCtr .joinBttn {
   padding: 0.4rem 2.16rem;
   border: 0.16rem solid #970C10;
   margin: 0 0.32rem 0.32rem 0;
@@ -681,7 +695,7 @@ p {
   transition: all 0.15s;
   align-self: center;
 }
-.bttmSec .joinBttn:hover {
+.bttmSec .bttnCtr .joinBttn:hover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
   color: #E8E8E8;
   border-color: #7F0000;
@@ -689,7 +703,7 @@ p {
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-.bttmSec .joinBttn:active {
+.bttmSec .bttnCtr .joinBttn:active {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -697,7 +711,7 @@ p {
   color: #FFFDFC;
 }
 @media (max-width: 500px) {
-  .bttmSec .joinBttn {
+  .bttmSec .bttnCtr .joinBttn {
     font-size: 1.4rem;
     width: 150px;
     height: 35px;

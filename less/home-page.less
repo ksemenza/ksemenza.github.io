@@ -119,6 +119,7 @@ display: none;
 
 /** START OF TOP SEC THREE IMG THREE TXT **/
 .topSection {
+
     .centerPage();
     margin-bottom: 5px;
 .topSecHeader{
@@ -130,14 +131,20 @@ display: none;
 //IMG AND TXT
 .topImgsCaptions {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+   
 //IMG 1
 .imgTxt1{
+
+
 .topImg1{
+
     .topImgSpecs1();
 }//end top img1
 //START OF TOP IMG TXT
 .topTxt1{
+      
+
     width: @topImgWidth1;
     .topTxtSpecs();
     &:hover{
@@ -152,10 +159,9 @@ display: none;
 //IMG 2
 .imgTxt2{
     .topImg2{
-        margin-top: -1%
+      
         .topImgSpecs1();
     }//end of top img 2
-    //START OF TOP IMG TXT
 .topTxt2{
     width: @topImgWidth1;
     .topTxtSpecs();
@@ -168,16 +174,14 @@ display: none;
 }//end top txt 1 / 2
 }//end of img caption 2
 
-
 .imgTxt3{
     .topImg3{
-        width: @topImgWidth3;
-        border-radius: @imgRadius;
+        .topImgSpec3();
     }//end of top img 3 
 .topTxt3{
-    width:@topImgWidth3;
     .topTxtSpecs();
     &:hover{ 
+     
         .topTxtAnim();
     }//end of top img3 hover
     @media @phone {
@@ -185,16 +189,15 @@ display: none;
     }//end phone top txt3
 }//end top txt3
 }
-}//end top sec
-
-
+}//end phone txt3
 }//end of img caption 3
+
 
 
 
 //START OF MID SEC
 .midSecImgTxt{
-   
+    .centerPage();
    background: linear-gradient(to right, transparent 5%, white), url(../src/img/midImg-min.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -231,7 +234,21 @@ font-size: 1.6rem;
     width: 100%;
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
 .centerPage();
+.bttmImgRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+margin-right: 4.5%;
+margin-bottom: 3%;
+.bttmImg {
+    height: 15%;
+    width: 25%;
+}
+}
 @media @phone {
     align-items: center;
 }
@@ -244,8 +261,15 @@ h4 {
         font-size: 1.8rem;
     }//end of bttm h4 phone
 }//end of bttm h4
+
+.bttnCtr {
+    display: flex;
+    justify-content: center;
+    margin-right: 6%;
+width: 100%;
 button{
     border: none;
+    
 }
 .joinBttn {
 .fancyBttn();
@@ -260,7 +284,7 @@ button{
         .bttnSpecsPhone();
     }//end of join bttn phone
 }//end of join bttn 
-
+}
 }//end of bttm sec
 
 

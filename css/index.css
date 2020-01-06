@@ -188,9 +188,10 @@ header {
 }
 #myPass {
   text-decoration: none;
+  color: #BFD2D0;
   display: flex;
   align-items: center;
-  color: #BFD2D0;
+  color: #FFA384;
 }
 @media (max-width: 500px) {
   #myPass {
@@ -213,14 +214,14 @@ header {
   margin-left: 3px;
 }
 #myPass:hover:before {
-  width: 195px;
+  width: 235px;
   border-radius: 8px;
   background-color: rgba(191, 210, 208, 0.5);
-  border: 1px solid #BFD2D0;
+  border: 1px solid #F79905;
 }
 #myPass span {
   position: relative;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 18px;
   font-weight: 900;
   letter-spacing: 0.25em;
@@ -234,7 +235,7 @@ header {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #BFD2D0;
+  stroke: #008291;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -247,14 +248,16 @@ header {
 .myPassFX:active {
   transform: scale(0.86);
 }
-#myPass:hover {
-  color: #62CCC0;
+#myPass:hover,
+#logIn:hover {
+  color: #F79905;
 }
 #logIn {
   text-decoration: none;
+  color: #BFD2D0;
   display: flex;
   align-items: center;
-  color: #BFD2D0;
+  color: #FFA384;
 }
 #logIn .topNavLogIn {
   position: relative;
@@ -272,14 +275,14 @@ header {
   margin-left: 3px;
 }
 #logIn:hover:before {
-  width: 135px;
+  width: 175px;
   border-radius: 8px;
   background-color: rgba(191, 210, 208, 0.5);
-  border: 1px solid #BFD2D0;
+  border: 1px solid #F79905;
 }
 #logIn span {
   position: relative;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 18px;
   font-weight: 900;
   letter-spacing: 0.25em;
@@ -298,7 +301,7 @@ header {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #BFD2D0;
+  stroke: #008291;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -310,9 +313,6 @@ header {
 }
 .logInFX:active {
   transform: scale(0.86);
-}
-#logIn:hover {
-  color: #62CCC0;
 }
 @font-face {
   font-family: 'Bree Serif';
@@ -536,7 +536,7 @@ header {
   justify-content: space-between;
 }
 .topSection .topImgsCaptions .imgTxt1 {
-  margin-right: 2%;
+  padding-right: 15px;
 }
 .topSection .topImgsCaptions .imgTxt1 .topImg1 {
   width: 70%;
@@ -850,27 +850,19 @@ footer .copyright {
   font-family: 'Permanent Marker', cursive;
   background-color: #62CCC0;
 }
-#home,
-#about,
-#contact,
-#log-in {
+#home {
   text-decoration: none;
+  color: #BFD2D0;
   display: flex;
   align-items: center;
-  color: #BFD2D0;
+  color: #FFA384;
 }
-#home .bttmNavHome,
-#about .bttmNavHome,
-#contact .bttmNavHome,
-#log-in .bttmNavHome {
+#home .bttmNavHome {
   position: relative;
   padding: 19px 22px;
   transition: all 0.2s ease;
 }
-#home:before,
-#about:before,
-#contact:before,
-#log-in:before {
+#home:before {
   content: "";
   position: absolute;
   border-radius: 28px;
@@ -880,21 +872,15 @@ footer .copyright {
   transition: all 0.3s ease;
   margin-left: 3px;
 }
-#home:hover:before,
-#about:hover:before,
-#contact:hover:before,
-#log-in:hover:before {
+#home:hover:before {
   width: 110px;
   border-radius: 8px;
   background-color: rgba(191, 210, 208, 0.5);
   border: 1px solid #BFD2D0;
 }
-#home span,
-#about span,
-#contact span,
-#log-in span {
+#home span {
   position: relative;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 18px;
   font-weight: 900;
   letter-spacing: 0.25em;
@@ -902,10 +888,7 @@ footer .copyright {
   vertical-align: middle;
   margin-left: 21px;
 }
-#home svg,
-#about svg,
-#contact svg,
-#log-in svg {
+#home svg {
   position: relative;
   margin-left: 10px;
   fill: #62CCC0;
@@ -922,6 +905,192 @@ footer .copyright {
 #home:hover,
 #about:hover,
 #contact:hover,
+#log-in:hover {
+  color: #62CCC0;
+  position: relative;
+  margin-left: 10px;
+  fill: #62CCC0;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #62CCC0;
+  stroke-width: 3;
+}
+#about {
+  text-decoration: none;
+  color: #BFD2D0;
+  display: flex;
+  align-items: center;
+  color: #FFA384;
+}
+#about .bttmNavAbout {
+  position: relative;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+}
+#about:before {
+  content: "";
+  position: absolute;
+  border-radius: 28px;
+  background-color: rgba(98, 204, 192, 0.5);
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+  margin-left: 3px;
+}
+#about:hover:before {
+  width: 120px;
+  border-radius: 8px;
+  background-color: rgba(191, 210, 208, 0.5);
+  border: 1px solid #BFD2D0;
+}
+#about span {
+  position: relative;
+  font-size: 23px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: none;
+  vertical-align: middle;
+  margin-left: 21px;
+}
+#about svg {
+  position: relative;
+  margin-left: 10px;
+  fill: #62CCC0;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #62CCC0;
+  stroke-width: 3;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.bttmAboutFx:active {
+  transform: scale(0.86);
+}
+#about:hover {
+  color: #62CCC0;
+  position: relative;
+  margin-left: 10px;
+  fill: #62CCC0;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #62CCC0;
+  stroke-width: 3;
+}
+#contact {
+  text-decoration: none;
+  color: #BFD2D0;
+  display: flex;
+  align-items: center;
+  color: #FFA384;
+}
+#contact .bttmNavContact {
+  position: relative;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+}
+#contact:before {
+  content: "";
+  position: absolute;
+  border-radius: 28px;
+  background-color: rgba(98, 204, 192, 0.5);
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+  margin-left: 3px;
+}
+#contact:hover:before {
+  width: 145px;
+  border-radius: 8px;
+  background-color: rgba(191, 210, 208, 0.5);
+  border: 1px solid #BFD2D0;
+}
+#contact span {
+  position: relative;
+  font-size: 23px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: none;
+  vertical-align: middle;
+  margin-left: 21px;
+}
+#contact svg {
+  position: relative;
+  margin-left: 10px;
+  fill: #62CCC0;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #62CCC0;
+  stroke-width: 3;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.bttmContactFx:active {
+  transform: scale(0.86);
+}
+#contact:hover {
+  color: #62CCC0;
+  position: relative;
+  margin-left: 10px;
+  fill: #62CCC0;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #62CCC0;
+  stroke-width: 3;
+}
+#log-in {
+  text-decoration: none;
+  color: #BFD2D0;
+  display: flex;
+  align-items: center;
+  color: #FFA384;
+}
+#log-in .bttmNavContact {
+  position: relative;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+}
+#log-in:before {
+  content: "";
+  position: absolute;
+  border-radius: 28px;
+  background-color: rgba(98, 204, 192, 0.5);
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+  margin-left: 3px;
+}
+#log-in:hover:before {
+  width: 120px;
+  border-radius: 8px;
+  background-color: rgba(191, 210, 208, 0.5);
+  border: 1px solid #BFD2D0;
+}
+#log-in span {
+  position: relative;
+  font-size: 23px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: none;
+  vertical-align: middle;
+  margin-left: 21px;
+}
+#log-in svg {
+  position: relative;
+  margin-left: 10px;
+  fill: #62CCC0;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #62CCC0;
+  stroke-width: 3;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.bttmNavLogInFx:active {
+  transform: scale(0.86);
+}
 #log-in:hover {
   color: #62CCC0;
   position: relative;
@@ -1022,9 +1191,10 @@ footer .copyright {
 }
 .headerAnchorId {
   text-decoration: none;
+  color: #BFD2D0;
   display: flex;
   align-items: center;
-  color: #BFD2D0;
+  color: #FFA384;
 }
 .headerAnchorClass {
   position: relative;
@@ -1042,20 +1212,20 @@ footer .copyright {
   margin-left: 3px;
 }
 .headerAnchorCirExt {
-  width: 195px;
+  width: 235px;
   border-radius: 8px;
   background-color: rgba(191, 210, 208, 0.5);
-  border: 1px solid #BFD2D0;
+  border: 1px solid #F79905;
 }
 .headerAnchorCirExtLogin {
-  width: 135px;
+  width: 175px;
   border-radius: 8px;
   background-color: rgba(191, 210, 208, 0.5);
-  border: 1px solid #BFD2D0;
+  border: 1px solid #F79905;
 }
 .headerAnchorSpan {
   position: relative;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 18px;
   font-weight: 900;
   letter-spacing: 0.25em;
@@ -1069,7 +1239,7 @@ footer .copyright {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #BFD2D0;
+  stroke: #008291;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;

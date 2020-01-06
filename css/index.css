@@ -49,6 +49,9 @@ font-family: 'Patua One', cursive;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Solway', serif;
 */
+/** Group2 **/
+/** Group 3 **/
+/** Group 4 **/
 .centerPage {
   margin-left: 2%;
   margin-right: 2%;
@@ -63,7 +66,7 @@ font-family: 'Solway', serif;
   width: 100%;
 }
 .topTxtSpecs {
-  background-color: #F79905;
+  background-color: #F4F7F0;
   color: #212A31;
   padding: 15px 0;
   text-align: center;
@@ -77,8 +80,8 @@ font-family: 'Solway', serif;
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #970C10;
-  color: #F79905;
+  background-color: #62CCC0;
+  color: #F4F7F0;
 }
 .bttmNavPad {
   padding-left: 7%;
@@ -88,6 +91,9 @@ font-family: 'Solway', serif;
 .bttmNavPadPhone {
   padding-left: 4%;
   padding-right: 4%;
+}
+.phoneBttmNav {
+  font-size: 1rem;
 }
 header {
   margin-left: 2%;
@@ -99,14 +105,14 @@ header {
   align-content: center;
   height: 95px;
   padding-bottom: 3%;
-  background-color: #970C10;
+  background-color: #62CCC0;
   margin-top: -2%;
 }
 @media (max-width: 500px) {
   .headerTxt {
     flex-direction: column;
     align-items: center;
-    height: 115px;
+    height: 100px;
   }
 }
 .headerTxt .logoCoName {
@@ -117,7 +123,9 @@ header {
   .headerTxt .logoCoName {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding-right: 18%;
+    margin-bottom: -4%;
   }
 }
 .headerTxt .logoTop {
@@ -138,7 +146,7 @@ header {
   display: flex;
   font-size: 2.5rem;
   margin-top: 5%;
-  color: #F79905;
+  color: #F4F7F0;
   font-family: 'Bree Serif', serif;
   text-decoration: none;
 }
@@ -156,15 +164,9 @@ header {
   margin-top: 2%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  font-size: 1.8rem;
+  justify-content: space-around;
   height: 100%;
   font-family: 'Permanent Marker', cursive;
-}
-@media (max-width: 800px) {
-  .topNav a {
-    font-size: 1.6rem;
-  }
 }
 @media (max-width: 500px) {
   .topNav a {
@@ -178,11 +180,6 @@ header {
     padding-left: 35%;
   }
 }
-@media (max-width: 500px) {
-  #myPassport {
-    display: none;
-  }
-}
 .myPassFX {
   padding-right: 35px;
 }
@@ -193,7 +190,12 @@ header {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #F79905;
+  color: #F4F7F0;
+}
+@media (max-width: 500px) {
+  #myPass {
+    display: none;
+  }
 }
 #myPass .topNavMyPass {
   position: relative;
@@ -204,7 +206,7 @@ header {
   content: "";
   position: absolute;
   border-radius: 28px;
-  background-color: rgba(151, 12, 16, 0.5);
+  background-color: rgba(98, 204, 192, 0.5);
   width: 40px;
   height: 40px;
   transition: all 0.3s ease;
@@ -213,8 +215,8 @@ header {
 #myPass:hover:before {
   width: 195px;
   border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
+  background-color: rgba(244, 247, 240, 0.5);
+  border: 1px solid #F4F7F0;
 }
 #myPass span {
   position: relative;
@@ -232,22 +234,27 @@ header {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #F79905;
+  stroke: #F4F7F0;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
+}
+@media (max-width: 500px) {
+  #myPass svg {
+    display: none;
+  }
 }
 .myPassFX:active {
   transform: scale(0.86);
 }
 #myPass:hover {
-  color: #970C10;
+  color: #62CCC0;
 }
 #logIn {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #F79905;
+  color: #F4F7F0;
 }
 #logIn .topNavLogIn {
   position: relative;
@@ -258,7 +265,7 @@ header {
   content: "";
   position: absolute;
   border-radius: 28px;
-  background-color: rgba(151, 12, 16, 0.5);
+  background-color: rgba(98, 204, 192, 0.5);
   width: 40px;
   height: 40px;
   transition: all 0.3s ease;
@@ -267,8 +274,8 @@ header {
 #logIn:hover:before {
   width: 135px;
   border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
+  background-color: rgba(244, 247, 240, 0.5);
+  border: 1px solid #F4F7F0;
 }
 #logIn span {
   position: relative;
@@ -280,22 +287,32 @@ header {
   vertical-align: middle;
   margin-left: 21px;
 }
+@media (max-width: 500px) {
+  #logIn span {
+    margin-right: 160px;
+  }
+}
 #logIn svg {
   position: relative;
   margin-left: 10px;
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #F79905;
+  stroke: #F4F7F0;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
+}
+@media (max-width: 500px) {
+  #logIn svg {
+    display: none;
+  }
 }
 .logInFX:active {
   transform: scale(0.86);
 }
 #logIn:hover {
-  color: #970C10;
+  color: #62CCC0;
 }
 @font-face {
   font-family: 'Bree Serif';
@@ -370,7 +387,7 @@ header {
   }
 }
 .landingSec .landingTitle {
-  color: #970C10;
+  color: #62CCC0;
   font-size: 6.4rem;
   margin-top: -2%;
   font-family: 'Permanent Marker', cursive;
@@ -412,7 +429,7 @@ header {
 }
 .landingButtons #downloadBtn {
   padding: 0.4rem 2.16rem;
-  border: 0.16rem solid #970C10;
+  border: 0.16rem solid #62CCC0;
   margin: 0 0.32rem 0.32rem 0;
   border-radius: 0.9rem;
   text-decoration: none;
@@ -425,13 +442,13 @@ header {
   width: 185px;
   height: 55px;
   font-family: 'Permanent Marker', cursive;
-  background-color: #970C10;
+  background-color: #62CCC0;
   color: #FFFDFC;
 }
 .landingButtons #downloadBtn:hover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
   color: #E8E8E8;
-  border-color: #7F0000;
+  border-color: #368980;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -440,7 +457,7 @@ header {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  background-color: #970C10;
+  background-color: #62CCC0;
   color: #FFFDFC;
 }
 @media (max-width: 500px) {
@@ -450,7 +467,7 @@ header {
 }
 .landingButtons #signUpBtn {
   padding: 0.4rem 2.16rem;
-  border: 0.16rem solid #970C10;
+  border: 0.16rem solid #62CCC0;
   margin: 0 0.32rem 0.32rem 0;
   border-radius: 0.9rem;
   text-decoration: none;
@@ -458,7 +475,7 @@ header {
   font-weight: 300;
   color: #FFFDFC;
   text-shadow: 0 0.064rem 0.064em rgba(0, 0, 0, 0.35);
-  background-color: #970C10;
+  background-color: #62CCC0;
   text-align: center;
   transition: all 0.15s;
   font-size: 2.8rem;
@@ -467,12 +484,12 @@ header {
   font-family: 'Permanent Marker', cursive;
   margin-left: 5%;
   background-color: #FFFDFC;
-  color: #970C10;
+  color: #62CCC0;
 }
 .landingButtons #signUpBtn:hover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
-  color: #7F0000;
-  border-color: #7F0000;
+  color: #368980;
+  border-color: #368980;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -482,7 +499,7 @@ header {
   -ms-transform: scale(1);
   transform: scale(1);
   background-color: #FFFDFC;
-  color: #970C10;
+  color: #62CCC0;
 }
 @media (max-width: 500px) {
   .landingButtons #signUpBtn {
@@ -516,14 +533,14 @@ header {
 }
 .topSection .topImgsCaptions {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .topSection .topImgsCaptions .imgTxt1 .topImg1 {
   width: 70%;
 }
 .topSection .topImgsCaptions .imgTxt1 .topTxt1 {
   width: 70%;
-  background-color: #F79905;
+  background-color: #F4F7F0;
   color: #212A31;
   padding: 15px 0;
   text-align: center;
@@ -537,8 +554,8 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #970C10;
-  color: #F79905;
+  background-color: #62CCC0;
+  color: #F4F7F0;
 }
 @media (max-width: 500px) {
   .topSection .topImgsCaptions .imgTxt1 .topTxt1 {
@@ -550,7 +567,7 @@ header {
 }
 .topSection .topImgsCaptions .imgTxt2 .topTxt2 {
   width: 70%;
-  background-color: #F79905;
+  background-color: #F4F7F0;
   color: #212A31;
   padding: 15px 0;
   text-align: center;
@@ -564,8 +581,8 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #970C10;
-  color: #F79905;
+  background-color: #62CCC0;
+  color: #F4F7F0;
 }
 @media (max-width: 500px) {
   .topSection .topImgsCaptions .imgTxt2 .topTxt2 {
@@ -576,7 +593,7 @@ header {
   width: 100%;
 }
 .topSection .topImgsCaptions .imgTxt3 .topTxt3 {
-  background-color: #F79905;
+  background-color: #F4F7F0;
   color: #212A31;
   padding: 15px 0;
   text-align: center;
@@ -590,8 +607,8 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #970C10;
-  color: #F79905;
+  background-color: #62CCC0;
+  color: #F4F7F0;
 }
 @media (max-width: 500px) {
   .topSection .topImgsCaptions .imgTxt3 .topTxt3 {
@@ -673,7 +690,7 @@ p {
 .bttmSec .bttnCtr {
   display: flex;
   justify-content: center;
-  margin-right: 6%;
+  margin-right: 5%;
   width: 100%;
 }
 .bttmSec .bttnCtr button {
@@ -681,7 +698,7 @@ p {
 }
 .bttmSec .bttnCtr .joinBttn {
   padding: 0.4rem 2.16rem;
-  border: 0.16rem solid #970C10;
+  border: 0.16rem solid #62CCC0;
   margin: 0 0.32rem 0.32rem 0;
   border-radius: 0.9rem;
   text-decoration: none;
@@ -690,7 +707,7 @@ p {
   font-weight: 300;
   color: #FFFDFC;
   text-shadow: 0 0.064rem 0.064em rgba(0, 0, 0, 0.35);
-  background-color: #970C10;
+  background-color: #62CCC0;
   text-align: center;
   transition: all 0.15s;
   align-self: center;
@@ -698,7 +715,7 @@ p {
 .bttmSec .bttnCtr .joinBttn:hover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
   color: #E8E8E8;
-  border-color: #7F0000;
+  border-color: #368980;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -707,7 +724,7 @@ p {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  background-color: #970C10;
+  background-color: #62CCC0;
   color: #FFFDFC;
 }
 @media (max-width: 500px) {
@@ -731,7 +748,7 @@ p {
   justify-content: center;
   height: 600px;
   padding: 20%;
-  color: #7F0000;
+  color: #368980;
 }
 @media (max-width: 500px) {
   .heroSec {
@@ -765,7 +782,7 @@ p {
   }
 }
 .heroSec .landingTitle {
-  color: #970C10;
+  color: #62CCC0;
   font-size: 6.4rem;
   margin-top: -2%;
   font-family: 'Permanent Marker', cursive;
@@ -800,11 +817,10 @@ footer .bttmNav {
   width: 100%;
   padding-bottom: 1%;
   padding-top: 1%;
-  font-size: 2.1rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #970C10;
+  background-color: #62CCC0;
 }
 footer .bttmNav a {
   padding-left: 7%;
@@ -812,7 +828,7 @@ footer .bttmNav a {
   height: 65px;
   height: 45px;
   text-decoration: none;
-  color: #F79905;
+  color: #F4F7F0;
   font-family: 'Permanent Marker', cursive;
   overflow: hidden;
   white-space: nowrap;
@@ -823,229 +839,56 @@ footer .bttmNav a {
     padding-left: 2%;
   }
 }
-@media (max-width: 500px) {
-  footer .bttmNav a {
-    font-size: 1.6rem;
-  }
-}
 footer .copyright {
   font-size: 1.2rem;
   margin-top: -1%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   font-family: 'Permanent Marker', cursive;
-  background-color: #970C10;
+  background-color: #62CCC0;
 }
-#home {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: #F79905;
-}
-#home .bttmNavHome {
-  position: relative;
-  padding: 19px 22px;
-  transition: all 0.2s ease;
-}
-#home:before {
-  content: "";
-  position: absolute;
-  border-radius: 28px;
-  background-color: rgba(151, 12, 16, 0.5);
-  width: 40px;
-  height: 40px;
-  transition: all 0.3s ease;
-  margin-left: 3px;
-}
-#home:hover:before {
-  width: 110px;
-  border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
-}
-#home span {
-  position: relative;
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: 900;
-  letter-spacing: 0.25em;
-  text-transform: none;
-  vertical-align: middle;
-  margin-left: 21px;
-}
-#home svg {
-  position: relative;
-  margin-left: 10px;
-  fill: #970C10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #970C10;
-  stroke-width: 3;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-.bttmHomeFx:active {
-  transform: scale(0.86);
-}
-#home:hover {
-  color: #970C10;
-  position: relative;
-  margin-left: 10px;
-  fill: #970C10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #970C10;
-  stroke-width: 3;
-}
-#about {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: #F79905;
-}
-#about .bttmNavAbout {
-  position: relative;
-  padding: 19px 22px;
-  transition: all 0.2s ease;
-}
-#about:before {
-  content: "";
-  position: absolute;
-  border-radius: 28px;
-  background-color: rgba(151, 12, 16, 0.5);
-  width: 40px;
-  height: 40px;
-  transition: all 0.3s ease;
-  margin-left: 3px;
-}
-#about:hover:before {
-  width: 120px;
-  border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
-}
-#about span {
-  position: relative;
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: 900;
-  letter-spacing: 0.25em;
-  text-transform: none;
-  vertical-align: middle;
-  margin-left: 21px;
-}
-#about svg {
-  position: relative;
-  margin-left: 10px;
-  fill: #970C10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #970C10;
-  stroke-width: 3;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-.bttmAboutFx:active {
-  transform: scale(0.86);
-}
-#about:hover {
-  color: #970C10;
-  position: relative;
-  margin-left: 10px;
-  fill: #970C10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #970C10;
-  stroke-width: 3;
-}
-#contact {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: #F79905;
-}
-#contact .bttmNavContact {
-  position: relative;
-  padding: 19px 22px;
-  transition: all 0.2s ease;
-}
-#contact:before {
-  content: "";
-  position: absolute;
-  border-radius: 28px;
-  background-color: rgba(151, 12, 16, 0.5);
-  width: 40px;
-  height: 40px;
-  transition: all 0.3s ease;
-  margin-left: 3px;
-}
-#contact:hover:before {
-  width: 145px;
-  border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
-}
-#contact span {
-  position: relative;
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: 900;
-  letter-spacing: 0.25em;
-  text-transform: none;
-  vertical-align: middle;
-  margin-left: 21px;
-}
-#contact svg {
-  position: relative;
-  margin-left: 10px;
-  fill: #970C10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #970C10;
-  stroke-width: 3;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-.bttmContactFx:active {
-  transform: scale(0.86);
-}
-#contact:hover {
-  color: #970C10;
-  position: relative;
-  margin-left: 10px;
-  fill: #970C10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #970C10;
-  stroke-width: 3;
-}
+#home,
+#about,
+#contact,
 #log-in {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #F79905;
+  color: #F4F7F0;
 }
-#log-in .bttmNavContact {
+#home .bttmNavHome,
+#about .bttmNavHome,
+#contact .bttmNavHome,
+#log-in .bttmNavHome {
   position: relative;
   padding: 19px 22px;
   transition: all 0.2s ease;
 }
+#home:before,
+#about:before,
+#contact:before,
 #log-in:before {
   content: "";
   position: absolute;
   border-radius: 28px;
-  background-color: rgba(151, 12, 16, 0.5);
+  background-color: rgba(98, 204, 192, 0.5);
   width: 40px;
   height: 40px;
   transition: all 0.3s ease;
   margin-left: 3px;
 }
+#home:hover:before,
+#about:hover:before,
+#contact:hover:before,
 #log-in:hover:before {
-  width: 120px;
+  width: 110px;
   border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
+  background-color: rgba(244, 247, 240, 0.5);
+  border: 1px solid #F4F7F0;
 }
+#home span,
+#about span,
+#contact span,
 #log-in span {
   position: relative;
   font-size: 18px;
@@ -1056,28 +899,34 @@ footer .copyright {
   vertical-align: middle;
   margin-left: 21px;
 }
+#home svg,
+#about svg,
+#contact svg,
 #log-in svg {
   position: relative;
   margin-left: 10px;
-  fill: #970C10;
+  fill: #62CCC0;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #970C10;
+  stroke: #62CCC0;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
 }
-.bttmNavLogInFx:active {
+.bttmHomeFx:active {
   transform: scale(0.86);
 }
+#home:hover,
+#about:hover,
+#contact:hover,
 #log-in:hover {
-  color: #970C10;
+  color: #62CCC0;
   position: relative;
   margin-left: 10px;
-  fill: #970C10;
+  fill: #62CCC0;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #970C10;
+  stroke: #62CCC0;
   stroke-width: 3;
 }
 .bttnSpecs {
@@ -1094,7 +943,7 @@ footer .copyright {
 }
 .fancyBttn {
   padding: 0.4rem 2.16rem;
-  border: 0.16rem solid #970C10;
+  border: 0.16rem solid #62CCC0;
   margin: 0 0.32rem 0.32rem 0;
   border-radius: 0.9rem;
   text-decoration: none;
@@ -1103,14 +952,14 @@ footer .copyright {
   font-weight: 300;
   color: #FFFDFC;
   text-shadow: 0 0.064rem 0.064em rgba(0, 0, 0, 0.35);
-  background-color: #970C10;
+  background-color: #62CCC0;
   text-align: center;
   transition: all 0.15s;
 }
 .fancyBttnHover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
   color: #E8E8E8;
-  border-color: #7F0000;
+  border-color: #368980;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -1119,19 +968,19 @@ footer .copyright {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  background-color: #970C10;
+  background-color: #62CCC0;
   color: #FFFDFC;
 }
 .signUpBttn {
   padding: 0.4rem 2.16rem;
-  border: 0.16rem solid #970C10;
+  border: 0.16rem solid #62CCC0;
   margin: 0 0.32rem 0.32rem 0;
   border-radius: 0.9rem;
   text-decoration: none;
   font-family: 'Permanent Marker', cursive;
   font-size: 2.1rem;
   font-weight: 300;
-  color: #970C10;
+  color: #62CCC0;
   text-shadow: 0 0.064rem 0.064em rgba(0, 0, 0, 0.35);
   background-color: #FFFDFC;
   text-align: center;
@@ -1139,8 +988,8 @@ footer .copyright {
 }
 .signUpBttnHover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
-  color: #7F0000;
-  border-color: #7F0000;
+  color: #368980;
+  border-color: #368980;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -1150,7 +999,7 @@ footer .copyright {
   -ms-transform: scale(1);
   transform: scale(1);
   background-color: #FFFDFC;
-  color: #970C10;
+  color: #62CCC0;
 }
 .bttnTemplate(bg txt border) {
   background-color: bg;
@@ -1163,7 +1012,7 @@ footer .copyright {
   font-family: 'Permanent Marker', cursive;
   font-size: 2.1rem;
   font-weight: 300;
-  color: #F79905;
+  color: #F4F7F0;
   text-shadow: 0 0.064rem 0.064em rgba(0, 0, 0, 0.35);
   text-align: center;
   transition: all 0.15s;
@@ -1172,7 +1021,7 @@ footer .copyright {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #F79905;
+  color: #F4F7F0;
 }
 .headerAnchorClass {
   position: relative;
@@ -1183,7 +1032,7 @@ footer .copyright {
   content: "";
   position: absolute;
   border-radius: 28px;
-  background-color: rgba(151, 12, 16, 0.5);
+  background-color: rgba(98, 204, 192, 0.5);
   width: 40px;
   height: 40px;
   transition: all 0.3s ease;
@@ -1192,14 +1041,14 @@ footer .copyright {
 .headerAnchorCirExt {
   width: 195px;
   border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
+  background-color: rgba(244, 247, 240, 0.5);
+  border: 1px solid #F4F7F0;
 }
 .headerAnchorCirExtLogin {
   width: 135px;
   border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
+  background-color: rgba(244, 247, 240, 0.5);
+  border: 1px solid #F4F7F0;
 }
 .headerAnchorSpan {
   position: relative;
@@ -1217,7 +1066,7 @@ footer .copyright {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #F79905;
+  stroke: #F4F7F0;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -1228,34 +1077,34 @@ footer .copyright {
 .headerAnchorCirExtHome {
   width: 110px;
   border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
+  background-color: rgba(244, 247, 240, 0.5);
+  border: 1px solid #F4F7F0;
 }
 .headerAnchorCirExtAbout {
   width: 120px;
   border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
+  background-color: rgba(244, 247, 240, 0.5);
+  border: 1px solid #F4F7F0;
 }
 .headerAnchorCirExtContact {
   width: 145px;
   border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
+  background-color: rgba(244, 247, 240, 0.5);
+  border: 1px solid #F4F7F0;
 }
 .headerAnchorCirExtLogIn {
   width: 120px;
   border-radius: 8px;
-  background-color: rgba(247, 153, 5, 0.5);
-  border: 1px solid #F79905;
+  background-color: rgba(244, 247, 240, 0.5);
+  border: 1px solid #F4F7F0;
 }
 .footerAnchorArrow {
   position: relative;
   margin-left: 10px;
-  fill: #970C10;
+  fill: #62CCC0;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #970C10;
+  stroke: #62CCC0;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -1263,10 +1112,10 @@ footer .copyright {
 .arrowHover {
   position: relative;
   margin-left: 10px;
-  fill: #970C10;
+  fill: #62CCC0;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #970C10;
+  stroke: #62CCC0;
   stroke-width: 3;
 }
 .wiggleImg {

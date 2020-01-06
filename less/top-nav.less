@@ -1,6 +1,6 @@
 header {
     .centerPage();
-
+   
 }
 .headerTxt {
     display: flex;
@@ -10,11 +10,10 @@ header {
     padding-bottom: 3%;
     background-color: @burgundy-main1;
     margin-top: -2%;
-
     @media @phone {
         flex-direction: column;
         align-items: center;
-        height: 115px;
+        height: 100px;
 }//end of headerTxt phone
 .logoCoName {
     display: flex;
@@ -22,7 +21,9 @@ header {
     @media @phone {
         width: 100%;
         display: flex;
-        justify-content: center;
+       justify-content: space-between;
+       padding-right: 18%;
+       margin-bottom: -4%;
     }//end of logo and company name div phone
     }//end of logo and company name div
 .logoTop{
@@ -39,8 +40,7 @@ header {
         -ms-transform: rotateZ(30deg);
         transform: rotateZ(30deg);
     }
-    @media @phone {
-    }//end of logo phone
+
 }//end of logoTop
 .companyName{
     display: flex;
@@ -69,15 +69,12 @@ white-space: nowrap;
 margin-top: 2%;
 display: flex;
 align-items: center;
-justify-content: space-between;
-font-size: 1.8rem;
+justify-content: space-around;
 height: 100%;
 font-family: @messy-font;
 
 a {
-  
     @media @tablet{
-        font-size: 1.6rem;
     }
     @media @phone {
         margin-top: -15px;
@@ -95,12 +92,6 @@ a {
 }// end of phone log in
 }//end of top login btn
 
-#myPassport {
-
-    @media @phone {
-       display: none;
-    }//end of mypass phone
-}//end of my pass
 
 
 .myPassFX {

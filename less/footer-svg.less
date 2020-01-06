@@ -1,11 +1,11 @@
-#home {
+#home, #about, #contact, #log-in {
     .headerAnchorId();
          .bttmNavHome {
       .headerAnchorClass();
       }//end anchor class name
       //CIRCLE RENDERING
       &:before{
-          .headerAnchorCircle()
+          .headerAnchorCircle();
       }//end circle rendering
       //HOVER
       &:hover:before{
@@ -13,13 +13,17 @@
       }//end home circle extend
   //HYPER-LINK TEXT
       span {
+          
       .headerAnchorSpan();
- 
+   
       }//end of span link text
       //ARROW RENDERING
       svg {
   .footerAnchorArrow();
+
       }//end home arrow
+
+    
       }//end of id anchor
       //DIV LINK EFFECT
       .bttmHomeFx {
@@ -27,110 +31,110 @@
               transform: scale(.86);
           }//end bttm home fx active
       }//end home fx
-      #home:hover{
+      #home:hover,  #about:hover,  #contact:hover,  #log-in:hover{
           color: @burgundy-main1;
           .arrowHover();
       }//end home hover
      
-//ABOUT
-      #about {
-        .headerAnchorId();
-             .bttmNavAbout {
-          .headerAnchorClass();
-          }//end anchor class name
-          //CIRCLE RENDERING
-          &:before{
-              .headerAnchorCircle()
-          }//end about circle rendering
-          //HOVER
-          &:hover:before{
-      .headerAnchorCirExtAbout();
-          }//end about circle extend
-      //HYPER-LINK TEXT
-          span {
-          .headerAnchorSpan();
-          }//end of span link text
-          //ARROW RENDERING
-          svg {
-      .footerAnchorArrow()
-          }//end of arrow
-          }//end of id anchor
-          //DIV LINK EFFECT
-          .bttmAboutFx {
-              &:active{
-                  transform: scale(.86);
-              }//end of active scale fx
-          }//end bttm about fx
-          #about:hover{
-              color: @burgundy-main1;
-              .arrowHover();
-          }
-//CONTACT
-      #contact {
-        .headerAnchorId();
-             .bttmNavContact {
-          .headerAnchorClass();
-          }//end anchor class name
-          //CIRCLE RENDERING
-          &:before{
-              .headerAnchorCircle()
-          }//end circle rendering
-          //HOVER
-          &:hover:before{
-      .headerAnchorCirExtContact();
-          }//end of hover effect
-      //HYPER-LINK TEXT
-          span {
-          .headerAnchorSpan();
-          }//end of span link text
-          //ARROW RENDERING
-          svg {
-      .footerAnchorArrow();
-          }//end of arrow
-          }//end of id anchor
-          //DIV LINK EFFECT
-          .bttmContactFx {
-              &:active{
-                  transform: scale(.86);
-              }//end of active scale fx
-          }//end of bttm contact fx
-          #contact:hover{
-              color: @burgundy-main1;
-              .arrowHover();
-          }//end contact hover
+// //ABOUT
+//       #about {
+//         .headerAnchorId();
+//              .bttmNavAbout {
+//           .headerAnchorClass();
+//           }//end anchor class name
+//           //CIRCLE RENDERING
+//           &:before{
+//               .headerAnchorCircle()
+//           }//end about circle rendering
+//           //HOVER
+//           &:hover:before{
+//       .headerAnchorCirExtAbout();
+//           }//end about circle extend
+//       //HYPER-LINK TEXT
+//           span {
+//           .headerAnchorSpan();
+//           }//end of span link text
+//           //ARROW RENDERING
+//           svg {
+//       .footerAnchorArrow()
+//           }//end of arrow
+//           }//end of id anchor
+//           //DIV LINK EFFECT
+//           .bttmAboutFx {
+//               &:active{
+//                   transform: scale(.86);
+//               }//end of active scale fx
+//           }//end bttm about fx
+//           #about:hover{
+//               color: @burgundy-main1;
+//               .arrowHover();
+//           }
+// //CONTACT
+//       #contact {
+//         .headerAnchorId();
+//              .bttmNavContact {
+//           .headerAnchorClass();
+//           }//end anchor class name
+//           //CIRCLE RENDERING
+//           &:before{
+//               .headerAnchorCircle()
+//           }//end circle rendering
+//           //HOVER
+//           &:hover:before{
+//       .headerAnchorCirExtContact();
+//           }//end of hover effect
+//       //HYPER-LINK TEXT
+//           span {
+//           .headerAnchorSpan();
+//           }//end of span link text
+//           //ARROW RENDERING
+//           svg {
+//       .footerAnchorArrow();
+//           }//end of arrow
+//           }//end of id anchor
+//           //DIV LINK EFFECT
+//           .bttmContactFx {
+//               &:active{
+//                   transform: scale(.86);
+//               }//end of active scale fx
+//           }//end of bttm contact fx
+//           #contact:hover{
+//               color: @burgundy-main1;
+//               .arrowHover();
+//           }//end contact hover
 
-//LOGIN
-      #log-in {
-        .headerAnchorId();
-             .bttmNavContact {
-          .headerAnchorClass();
-          }//end anchor class name
-          //CIRCLE RENDERING
-          &:before{
-              .headerAnchorCircle()
-          }//end circle rendering
-          //HOVER
-          &:hover:before{
-      .headerAnchorCirExtLogIn();
-          }//end of hover effect
-      //HYPER-LINK TEXT
-          span {
-          .headerAnchorSpan();
-          }//end of span link text
-          //ARROW RENDERING
-          svg {
-      .footerAnchorArrow()
-          }//end of arrow
-          }//end of id anchor
-          //DIV LINK EFFECT
-          .bttmNavLogInFx {
-              &:active{
-                  transform: scale(.86);
-              }//end of active scale fx
-          }//end of bttm contact fx
-          #log-in:hover{
-              color: @burgundy-main1;
-              .arrowHover();
-          }//end contact hover
+// //LOGIN
+//       #log-in {
+//         .headerAnchorId();
+//              .bttmNavContact {
+//           .headerAnchorClass();
+//           }//end anchor class name
+//           //CIRCLE RENDERING
+//           &:before{
+//               .headerAnchorCircle()
+//           }//end circle rendering
+//           //HOVER
+//           &:hover:before{
+//       .headerAnchorCirExtLogIn();
+//           }//end of hover effect
+//       //HYPER-LINK TEXT
+//           span {
+//           .headerAnchorSpan();
+//           }//end of span link text
+//           //ARROW RENDERING
+//           svg {
+//       .footerAnchorArrow()
+//           }//end of arrow
+//           }//end of id anchor
+//           //DIV LINK EFFECT
+//           .bttmNavLogInFx {
+//               &:active{
+//                   transform: scale(.86);
+//               }//end of active scale fx
+//           }//end of bttm contact fx
+//           #log-in:hover{
+//               color: @burgundy-main1;
+//               .arrowHover();
+//           }//end contact hover
 
  

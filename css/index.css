@@ -66,7 +66,7 @@ font-family: 'Solway', serif;
   width: 100%;
 }
 .topTxtSpecs {
-  background-color: #008291;
+  background-color: #62CCC0;
   color: #212A31;
   padding: 15px 0;
   text-align: center;
@@ -448,7 +448,7 @@ header {
 .landingButtons #downloadBtn:hover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
   color: #E8E8E8;
-  border-color: #008291;
+  border-color: #62CCC0;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -488,8 +488,8 @@ header {
 }
 .landingButtons #signUpBtn:hover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
-  color: #008291;
-  border-color: #008291;
+  color: #62CCC0;
+  border-color: #62CCC0;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -540,7 +540,7 @@ header {
 }
 .topSection .topImgsCaptions .imgTxt1 .topTxt1 {
   width: 70%;
-  background-color: #008291;
+  background-color: #62CCC0;
   color: #212A31;
   padding: 15px 0;
   text-align: center;
@@ -567,7 +567,7 @@ header {
 }
 .topSection .topImgsCaptions .imgTxt2 .topTxt2 {
   width: 70%;
-  background-color: #008291;
+  background-color: #62CCC0;
   color: #212A31;
   padding: 15px 0;
   text-align: center;
@@ -593,7 +593,7 @@ header {
   width: 100%;
 }
 .topSection .topImgsCaptions .imgTxt3 .topTxt3 {
-  background-color: #008291;
+  background-color: #62CCC0;
   color: #212A31;
   padding: 15px 0;
   text-align: center;
@@ -715,7 +715,7 @@ p {
 .bttmSec .bttnCtr .joinBttn:hover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
   color: #E8E8E8;
-  border-color: #008291;
+  border-color: #62CCC0;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -748,7 +748,7 @@ p {
   justify-content: center;
   height: 600px;
   padding: 20%;
-  color: #008291;
+  color: #62CCC0;
 }
 @media (max-width: 500px) {
   .heroSec {
@@ -959,7 +959,7 @@ footer .copyright {
 .fancyBttnHover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
   color: #E8E8E8;
-  border-color: #008291;
+  border-color: #62CCC0;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -988,8 +988,8 @@ footer .copyright {
 }
 .signUpBttnHover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
-  color: #008291;
-  border-color: #008291;
+  color: #62CCC0;
+  border-color: #62CCC0;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);

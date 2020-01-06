@@ -66,8 +66,8 @@ font-family: 'Solway', serif;
   width: 100%;
 }
 .topTxtSpecs {
-  background-color: #62CCC0;
-  color: #212A31;
+  background-color: #62C1A1;
+  color: #E7F2F8;
   padding: 15px 0;
   text-align: center;
   margin-top: -2px;
@@ -80,8 +80,8 @@ font-family: 'Solway', serif;
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #DAA486;
-  color: #008291;
+  background-color: #FFA384;
+  color: #E7F2F8;
 }
 .bttmNavPad {
   padding-left: 7%;
@@ -105,7 +105,7 @@ header {
   align-content: center;
   height: 95px;
   padding-bottom: 3%;
-  background-color: #DAA486;
+  background-color: #FFA384;
   margin-top: -2%;
 }
 @media (max-width: 500px) {
@@ -146,12 +146,12 @@ header {
   display: flex;
   font-size: 2.5rem;
   margin-top: 5%;
-  color: #008291;
+  color: #E7F2F8;
   font-family: 'Bree Serif', serif;
   text-decoration: none;
 }
 .headerTxt .companyName:hover {
-  color: #FAFCF0;
+  color: #EFE7BC;
 }
 @media (max-width: 800px) {
   .headerTxt .companyName {
@@ -190,7 +190,7 @@ header {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #008291;
+  color: #E7F2F8;
 }
 @media (max-width: 500px) {
   #myPass {
@@ -206,7 +206,7 @@ header {
   content: "";
   position: absolute;
   border-radius: 28px;
-  background-color: rgba(218, 164, 134, 0.5);
+  background-color: rgba(255, 163, 132, 0.5);
   width: 40px;
   height: 40px;
   transition: all 0.3s ease;
@@ -215,8 +215,8 @@ header {
 #myPass:hover:before {
   width: 195px;
   border-radius: 8px;
-  background-color: rgba(0, 130, 145, 0.5);
-  border: 1px solid #008291;
+  background-color: rgba(231, 242, 248, 0.5);
+  border: 1px solid #E7F2F8;
 }
 #myPass span {
   position: relative;
@@ -234,7 +234,7 @@ header {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #008291;
+  stroke: #E7F2F8;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -248,13 +248,13 @@ header {
   transform: scale(0.86);
 }
 #myPass:hover {
-  color: #DAA486;
+  color: #FFA384;
 }
 #logIn {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #008291;
+  color: #E7F2F8;
 }
 #logIn .topNavLogIn {
   position: relative;
@@ -265,7 +265,7 @@ header {
   content: "";
   position: absolute;
   border-radius: 28px;
-  background-color: rgba(218, 164, 134, 0.5);
+  background-color: rgba(255, 163, 132, 0.5);
   width: 40px;
   height: 40px;
   transition: all 0.3s ease;
@@ -274,8 +274,8 @@ header {
 #logIn:hover:before {
   width: 135px;
   border-radius: 8px;
-  background-color: rgba(0, 130, 145, 0.5);
-  border: 1px solid #008291;
+  background-color: rgba(231, 242, 248, 0.5);
+  border: 1px solid #E7F2F8;
 }
 #logIn span {
   position: relative;
@@ -298,7 +298,7 @@ header {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #008291;
+  stroke: #E7F2F8;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -312,7 +312,7 @@ header {
   transform: scale(0.86);
 }
 #logIn:hover {
-  color: #DAA486;
+  color: #FFA384;
 }
 @font-face {
   font-family: 'Bree Serif';
@@ -387,7 +387,7 @@ header {
   }
 }
 .landingSec .landingTitle {
-  color: #DAA486;
+  color: #FFA384;
   font-size: 6.4rem;
   margin-top: -2%;
   font-family: 'Permanent Marker', cursive;
@@ -429,7 +429,7 @@ header {
 }
 .landingButtons #downloadBtn {
   padding: 0.4rem 2.16rem;
-  border: 0.16rem solid #DAA486;
+  border: 0.16rem solid #FFA384;
   margin: 0 0.32rem 0.32rem 0;
   border-radius: 0.9rem;
   text-decoration: none;
@@ -442,13 +442,13 @@ header {
   width: 185px;
   height: 55px;
   font-family: 'Permanent Marker', cursive;
-  background-color: #DAA486;
+  background-color: #FFA384;
   color: #FFFDFC;
 }
 .landingButtons #downloadBtn:hover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
   color: #E8E8E8;
-  border-color: #62CCC0;
+  border-color: #008291;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -457,7 +457,7 @@ header {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  background-color: #DAA486;
+  background-color: #FFA384;
   color: #FFFDFC;
 }
 @media (max-width: 500px) {
@@ -467,7 +467,7 @@ header {
 }
 .landingButtons #signUpBtn {
   padding: 0.4rem 2.16rem;
-  border: 0.16rem solid #DAA486;
+  border: 0.16rem solid #FFA384;
   margin: 0 0.32rem 0.32rem 0;
   border-radius: 0.9rem;
   text-decoration: none;
@@ -475,7 +475,7 @@ header {
   font-weight: 300;
   color: #FFFDFC;
   text-shadow: 0 0.064rem 0.064em rgba(0, 0, 0, 0.35);
-  background-color: #DAA486;
+  background-color: #FFA384;
   text-align: center;
   transition: all 0.15s;
   font-size: 2.8rem;
@@ -484,12 +484,12 @@ header {
   font-family: 'Permanent Marker', cursive;
   margin-left: 5%;
   background-color: #FFFDFC;
-  color: #DAA486;
+  color: #FFA384;
 }
 .landingButtons #signUpBtn:hover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
-  color: #62CCC0;
-  border-color: #62CCC0;
+  color: #008291;
+  border-color: #008291;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -499,7 +499,7 @@ header {
   -ms-transform: scale(1);
   transform: scale(1);
   background-color: #FFFDFC;
-  color: #DAA486;
+  color: #FFA384;
 }
 @media (max-width: 500px) {
   .landingButtons #signUpBtn {
@@ -540,8 +540,8 @@ header {
 }
 .topSection .topImgsCaptions .imgTxt1 .topTxt1 {
   width: 70%;
-  background-color: #62CCC0;
-  color: #212A31;
+  background-color: #62C1A1;
+  color: #E7F2F8;
   padding: 15px 0;
   text-align: center;
   margin-top: -2px;
@@ -554,8 +554,8 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #DAA486;
-  color: #008291;
+  background-color: #FFA384;
+  color: #E7F2F8;
 }
 @media (max-width: 500px) {
   .topSection .topImgsCaptions .imgTxt1 .topTxt1 {
@@ -567,8 +567,8 @@ header {
 }
 .topSection .topImgsCaptions .imgTxt2 .topTxt2 {
   width: 70%;
-  background-color: #62CCC0;
-  color: #212A31;
+  background-color: #62C1A1;
+  color: #E7F2F8;
   padding: 15px 0;
   text-align: center;
   margin-top: -2px;
@@ -581,8 +581,8 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #DAA486;
-  color: #008291;
+  background-color: #FFA384;
+  color: #E7F2F8;
 }
 @media (max-width: 500px) {
   .topSection .topImgsCaptions .imgTxt2 .topTxt2 {
@@ -593,8 +593,8 @@ header {
   width: 100%;
 }
 .topSection .topImgsCaptions .imgTxt3 .topTxt3 {
-  background-color: #62CCC0;
-  color: #212A31;
+  background-color: #62C1A1;
+  color: #E7F2F8;
   padding: 15px 0;
   text-align: center;
   margin-top: -2px;
@@ -607,8 +607,8 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #DAA486;
-  color: #008291;
+  background-color: #FFA384;
+  color: #E7F2F8;
 }
 @media (max-width: 500px) {
   .topSection .topImgsCaptions .imgTxt3 .topTxt3 {
@@ -698,7 +698,7 @@ p {
 }
 .bttmSec .bttnCtr .joinBttn {
   padding: 0.4rem 2.16rem;
-  border: 0.16rem solid #DAA486;
+  border: 0.16rem solid #FFA384;
   margin: 0 0.32rem 0.32rem 0;
   border-radius: 0.9rem;
   text-decoration: none;
@@ -707,7 +707,7 @@ p {
   font-weight: 300;
   color: #FFFDFC;
   text-shadow: 0 0.064rem 0.064em rgba(0, 0, 0, 0.35);
-  background-color: #DAA486;
+  background-color: #FFA384;
   text-align: center;
   transition: all 0.15s;
   align-self: center;
@@ -715,7 +715,7 @@ p {
 .bttmSec .bttnCtr .joinBttn:hover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
   color: #E8E8E8;
-  border-color: #62CCC0;
+  border-color: #008291;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -724,7 +724,7 @@ p {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  background-color: #DAA486;
+  background-color: #FFA384;
   color: #FFFDFC;
 }
 @media (max-width: 500px) {
@@ -748,7 +748,7 @@ p {
   justify-content: center;
   height: 600px;
   padding: 20%;
-  color: #62CCC0;
+  color: #008291;
 }
 @media (max-width: 500px) {
   .heroSec {
@@ -782,7 +782,7 @@ p {
   }
 }
 .heroSec .landingTitle {
-  color: #DAA486;
+  color: #FFA384;
   font-size: 6.4rem;
   margin-top: -2%;
   font-family: 'Permanent Marker', cursive;
@@ -820,7 +820,7 @@ footer .bttmNav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #DAA486;
+  background-color: #FFA384;
 }
 footer .bttmNav a {
   padding-left: 7%;
@@ -828,7 +828,7 @@ footer .bttmNav a {
   height: 65px;
   height: 45px;
   text-decoration: none;
-  color: #008291;
+  color: #E7F2F8;
   font-family: 'Permanent Marker', cursive;
   overflow: hidden;
   white-space: nowrap;
@@ -845,7 +845,7 @@ footer .copyright {
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   font-family: 'Permanent Marker', cursive;
-  background-color: #DAA486;
+  background-color: #FFA384;
 }
 #home,
 #about,
@@ -854,7 +854,7 @@ footer .copyright {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #008291;
+  color: #E7F2F8;
 }
 #home .bttmNavHome,
 #about .bttmNavHome,
@@ -871,7 +871,7 @@ footer .copyright {
   content: "";
   position: absolute;
   border-radius: 28px;
-  background-color: rgba(218, 164, 134, 0.5);
+  background-color: rgba(255, 163, 132, 0.5);
   width: 40px;
   height: 40px;
   transition: all 0.3s ease;
@@ -883,8 +883,8 @@ footer .copyright {
 #log-in:hover:before {
   width: 110px;
   border-radius: 8px;
-  background-color: rgba(0, 130, 145, 0.5);
-  border: 1px solid #008291;
+  background-color: rgba(231, 242, 248, 0.5);
+  border: 1px solid #E7F2F8;
 }
 #home span,
 #about span,
@@ -905,10 +905,10 @@ footer .copyright {
 #log-in svg {
   position: relative;
   margin-left: 10px;
-  fill: #DAA486;
+  fill: #FFA384;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #DAA486;
+  stroke: #FFA384;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -920,13 +920,13 @@ footer .copyright {
 #about:hover,
 #contact:hover,
 #log-in:hover {
-  color: #DAA486;
+  color: #FFA384;
   position: relative;
   margin-left: 10px;
-  fill: #DAA486;
+  fill: #FFA384;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #DAA486;
+  stroke: #FFA384;
   stroke-width: 3;
 }
 .bttnSpecs {
@@ -943,7 +943,7 @@ footer .copyright {
 }
 .fancyBttn {
   padding: 0.4rem 2.16rem;
-  border: 0.16rem solid #DAA486;
+  border: 0.16rem solid #FFA384;
   margin: 0 0.32rem 0.32rem 0;
   border-radius: 0.9rem;
   text-decoration: none;
@@ -952,14 +952,14 @@ footer .copyright {
   font-weight: 300;
   color: #FFFDFC;
   text-shadow: 0 0.064rem 0.064em rgba(0, 0, 0, 0.35);
-  background-color: #DAA486;
+  background-color: #FFA384;
   text-align: center;
   transition: all 0.15s;
 }
 .fancyBttnHover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
   color: #E8E8E8;
-  border-color: #62CCC0;
+  border-color: #008291;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -968,19 +968,19 @@ footer .copyright {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  background-color: #DAA486;
+  background-color: #FFA384;
   color: #FFFDFC;
 }
 .signUpBttn {
   padding: 0.4rem 2.16rem;
-  border: 0.16rem solid #DAA486;
+  border: 0.16rem solid #FFA384;
   margin: 0 0.32rem 0.32rem 0;
   border-radius: 0.9rem;
   text-decoration: none;
   font-family: 'Permanent Marker', cursive;
   font-size: 2.1rem;
   font-weight: 300;
-  color: #DAA486;
+  color: #FFA384;
   text-shadow: 0 0.064rem 0.064em rgba(0, 0, 0, 0.35);
   background-color: #FFFDFC;
   text-align: center;
@@ -988,8 +988,8 @@ footer .copyright {
 }
 .signUpBttnHover {
   text-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.35);
-  color: #62CCC0;
-  border-color: #62CCC0;
+  color: #008291;
+  border-color: #008291;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -999,7 +999,7 @@ footer .copyright {
   -ms-transform: scale(1);
   transform: scale(1);
   background-color: #FFFDFC;
-  color: #DAA486;
+  color: #FFA384;
 }
 .bttnTemplate(bg txt border) {
   background-color: bg;
@@ -1012,7 +1012,7 @@ footer .copyright {
   font-family: 'Permanent Marker', cursive;
   font-size: 2.1rem;
   font-weight: 300;
-  color: #008291;
+  color: #E7F2F8;
   text-shadow: 0 0.064rem 0.064em rgba(0, 0, 0, 0.35);
   text-align: center;
   transition: all 0.15s;
@@ -1021,7 +1021,7 @@ footer .copyright {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #008291;
+  color: #E7F2F8;
 }
 .headerAnchorClass {
   position: relative;
@@ -1032,7 +1032,7 @@ footer .copyright {
   content: "";
   position: absolute;
   border-radius: 28px;
-  background-color: rgba(218, 164, 134, 0.5);
+  background-color: rgba(255, 163, 132, 0.5);
   width: 40px;
   height: 40px;
   transition: all 0.3s ease;
@@ -1041,14 +1041,14 @@ footer .copyright {
 .headerAnchorCirExt {
   width: 195px;
   border-radius: 8px;
-  background-color: rgba(0, 130, 145, 0.5);
-  border: 1px solid #008291;
+  background-color: rgba(231, 242, 248, 0.5);
+  border: 1px solid #E7F2F8;
 }
 .headerAnchorCirExtLogin {
   width: 135px;
   border-radius: 8px;
-  background-color: rgba(0, 130, 145, 0.5);
-  border: 1px solid #008291;
+  background-color: rgba(231, 242, 248, 0.5);
+  border: 1px solid #E7F2F8;
 }
 .headerAnchorSpan {
   position: relative;
@@ -1066,7 +1066,7 @@ footer .copyright {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #008291;
+  stroke: #E7F2F8;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -1077,34 +1077,34 @@ footer .copyright {
 .headerAnchorCirExtHome {
   width: 110px;
   border-radius: 8px;
-  background-color: rgba(0, 130, 145, 0.5);
-  border: 1px solid #008291;
+  background-color: rgba(231, 242, 248, 0.5);
+  border: 1px solid #E7F2F8;
 }
 .headerAnchorCirExtAbout {
   width: 120px;
   border-radius: 8px;
-  background-color: rgba(0, 130, 145, 0.5);
-  border: 1px solid #008291;
+  background-color: rgba(231, 242, 248, 0.5);
+  border: 1px solid #E7F2F8;
 }
 .headerAnchorCirExtContact {
   width: 145px;
   border-radius: 8px;
-  background-color: rgba(0, 130, 145, 0.5);
-  border: 1px solid #008291;
+  background-color: rgba(231, 242, 248, 0.5);
+  border: 1px solid #E7F2F8;
 }
 .headerAnchorCirExtLogIn {
   width: 120px;
   border-radius: 8px;
-  background-color: rgba(0, 130, 145, 0.5);
-  border: 1px solid #008291;
+  background-color: rgba(231, 242, 248, 0.5);
+  border: 1px solid #E7F2F8;
 }
 .footerAnchorArrow {
   position: relative;
   margin-left: 10px;
-  fill: #DAA486;
+  fill: #FFA384;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #DAA486;
+  stroke: #FFA384;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -1112,10 +1112,10 @@ footer .copyright {
 .arrowHover {
   position: relative;
   margin-left: 10px;
-  fill: #DAA486;
+  fill: #FFA384;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #DAA486;
+  stroke: #FFA384;
   stroke-width: 3;
 }
 .wiggleImg {

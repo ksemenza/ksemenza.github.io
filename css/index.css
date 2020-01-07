@@ -59,6 +59,9 @@ font-family: 'Solway', serif;
 .border {
   border: 1px solid red;
 }
+.headFootBorder {
+  border: 3px groove #44BF9C;
+}
 .topImgSpecs1 {
   width: 70%;
 }
@@ -80,8 +83,8 @@ font-family: 'Solway', serif;
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #62CCC0;
-  color: #BFD2D0;
+  background-color: #44BF9C;
+  color: #F79905;
 }
 .bttmNavPad {
   padding-left: 7%;
@@ -106,6 +109,7 @@ header {
   height: 95px;
   padding-bottom: 3%;
   background-color: #62CCC0;
+  border: 2px groove #44BF9C;
   margin-top: -2%;
 }
 @media (max-width: 500px) {
@@ -144,14 +148,14 @@ header {
 }
 .headerTxt .companyName {
   display: flex;
-  font-size: 2.5rem;
-  margin-top: 5%;
-  color: #BFD2D0;
-  font-family: 'Bree Serif', serif;
+  font-size: 3.8rem;
+  margin-top: 3%;
+  color: #FFA384;
+  font-family: 'Stoke', serif;
   text-decoration: none;
 }
 .headerTxt .companyName:hover {
-  color: #EFE7BC;
+  color: #F79905;
 }
 @media (max-width: 800px) {
   .headerTxt .companyName {
@@ -235,7 +239,7 @@ header {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #008291;
+  stroke: #44BF9C;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -301,7 +305,7 @@ header {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #008291;
+  stroke: #44BF9C;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -557,8 +561,8 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #62CCC0;
-  color: #BFD2D0;
+  background-color: #44BF9C;
+  color: #F79905;
 }
 @media (max-width: 500px) {
   .topSection .topImgsCaptions .imgTxt1 .topTxt1 {
@@ -584,8 +588,8 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #62CCC0;
-  color: #BFD2D0;
+  background-color: #44BF9C;
+  color: #F79905;
 }
 @media (max-width: 500px) {
   .topSection .topImgsCaptions .imgTxt2 .topTxt2 {
@@ -610,8 +614,8 @@ header {
   animation: wiggle 1s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: #62CCC0;
-  color: #BFD2D0;
+  background-color: #44BF9C;
+  color: #F79905;
 }
 @media (max-width: 500px) {
   .topSection .topImgsCaptions .imgTxt3 .topTxt3 {
@@ -811,6 +815,8 @@ p {
   }
 }
 footer {
+  border: 3px groove #44BF9C;
+  background-color: #62CCC0;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 3%;
@@ -898,6 +904,7 @@ footer .copyright {
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
+  display: none;
 }
 .bttmHomeFx:active {
   transform: scale(0.86);
@@ -963,6 +970,7 @@ footer .copyright {
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
+  display: none;
 }
 .bttmAboutFx:active {
   transform: scale(0.86);
@@ -1025,6 +1033,7 @@ footer .copyright {
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
+  display: none;
 }
 .bttmContactFx:active {
   transform: scale(0.86);
@@ -1087,6 +1096,7 @@ footer .copyright {
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
+  display: none;
 }
 .bttmNavLogInFx:active {
   transform: scale(0.86);
@@ -1239,7 +1249,7 @@ footer .copyright {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #008291;
+  stroke: #44BF9C;
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -1281,6 +1291,7 @@ footer .copyright {
   stroke-width: 3;
   transform: translateX(-5px);
   transition: all 0.3s ease;
+  display: none;
 }
 .arrowHover {
   position: relative;
